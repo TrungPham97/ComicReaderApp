@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Comic</string>
+    <string name="chapter_10">CHAPTER (10)</string>
+    <string name="no_page_number">NO PAGE NUMBER</string>
+    <string name="filter">Filter</string>
+    <string name="search">Search</string>
+    <string name="enter_your_category">Enter your category</string>
+    <string name="enter_name">Enter Name</string>
+</resources>
