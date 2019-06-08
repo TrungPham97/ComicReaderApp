@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Comic" />
+        <item
+            android:id="@+id/action_category"
+            android:icon="@drawable/ic_filter_list_white_24dp"
+            android:title="Categories" />
+        <item
+            android:id="@+id/action_history"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="Reading History" />
+        <item
+            android:id="@+id/action_search_nav"
+            android:icon="@drawable/ic_search_white_24dp"
+            android:title="Search_Filter" />
+    </group>
+
+    <item android:title="Advanced">
+        <menu>
+            <item
+                android:id="@+id/action_access"
+                android:icon="@drawable/ic_account_box_black_24dp"
+                android:title="Access" />
+            <item
+                android:id="@+id/action_about"
+                android:icon="@drawable/ic_info_outline_black_24dp"
+                android:title="About" />
+        </menu>
+    </item>
+</menu>
